@@ -94,6 +94,11 @@ background-color: unset !important;
     outline: none !important;
 }
 
+.dropdown-menu>li>a {
+    
+    color: #f4e6f4 !important;
+}
+
 .dropdown-menu{
         background-color: rgb(79, 59, 82) !important;
         color: #f4e6f4 !important;
@@ -350,7 +355,7 @@ color: #cebdce;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: -6.5% auto;
+  margin: -4% auto;
   background-color: #b3a7bea8;
   padding:4%;
   border-radius: 15px  55px  11px 66px;
@@ -486,7 +491,6 @@ background-color: #4b3d4b;
 margin: 0 !important;
 padding: 4%;
 }
-
 .contact .titl{
     margin: 0 auto !important ;
     text-align: center;
@@ -494,17 +498,15 @@ padding: 4%;
     color: #b8a8b8;
     font-weight: bolder;
 }
-
 .contact .titl h3{
     margin: 0px !important;  
 }
-
 .contact .card{
     width: 255px !important;
     height: 188px;
     background-color: #7a697a;
     padding:11px;
-    margin: 1% ;
+    margin: 3% 1% ;
     color: #e0d7e8;
     border-radius: 15px;
     -webkit-border-radius: 15px;
@@ -600,3 +602,15 @@ footer p {
     margin-bottom: 0;
 }
 /* ------------------------------------------------- */
+
+
+/* ------------------------------------------------------ */
+
+
+/* mobile media */
+@media (max-width:678px) {
+
+
+
+    
+}
